@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 50px;
+}
+.age-container {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    height: 80px;
+    width: 100%;
+  }
+  .btn-age {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+
+    .clickMe {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      align-items: center;
+      background-color: rgb(0, 60, 255);
+      color: white;
+      width: 80px;
+      height: 40px;
+      border-radius: 5px;
+    }
+    .reset {
+      background-color: rgb(255, 0, 0);
+      color: white;
+      width: 80px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      align-items: center;
+      border-radius: 5px;
+    }
+  }
+}
+.result-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+}
+@import 'cat';
+@import 'rps';

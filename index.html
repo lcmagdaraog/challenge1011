@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="age-container">
+        <div class="header">
+          <h1>Challenge 1: Your age in days</h1>
+        </div>
+        <div class="btn-age">
+          <a href="#" class="btn clickMe" onclick="ageInDays()">Click Me</a>
+          <a href="#" class="btn reset" onclick="reset()">Reset</a>
+        </div>
+      </div>
+      <div class="result-container">
+        <div class="result" id="result"></div>
+      </div>
+    </div>
+
+    <div class="container-2">
+      <div class="cat-container">
+        <div class="header">
+          <h1>Challenge 2: Cat Generator</h1>
+        </div>
+        <div class="btn-cat">
+          <a href="#" class="btn" id="cat-generator" onclick="generate()">Generate Cat</a>
+        </div>
+        <div class="cat-wrapper" id="cat-wrap">
+          <!-- <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+          <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+          <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+          <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt="">
+          <img src="https://thecatapi.com/api/images/get?format=src&type=gif&size=small" alt=""> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-3">
+      <div class="rps-container">
+        <div class="header">
+          <h1>Challenge 3: Rock, Paper, Scissor</h1>
+        </div>
+        <div class="rps-wrapper" id="rps-wrapper">
+          <img id="rock" src="\images\rock.png" onclick="rps(this)" alt="">
+          <img id="paper" src="\images\paper.png" onclick="rps(this)" alt="">
+          <img id="scissors" src="\images\scissors.png" onclick="rps(this)" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
